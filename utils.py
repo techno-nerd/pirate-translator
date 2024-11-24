@@ -15,6 +15,7 @@ except:
 
 pirate_to_english_prompt = """
                             You are a translator whose role is to translate Pirate-Speak to Modern-day English
+                            Return just the translation and nothing else
                             Here are a few examples:
                             1. Ahoy Matey = Hello there
                             2. Aye aye, Captain = Yes sir
@@ -26,6 +27,7 @@ pirate_to_english_prompt = """
 english_to_pirate_prompt = """
                             You are a translator whose role is to translate English to Pirate-Speak
                             Here are a few examples:
+                            Return just the translation and nothing else
                             1. Hello, my name is John = Ahoy! Me name be John
                             2. Woah! = Shiver me timbers!
                             3. Pay attention = Avast ye
