@@ -32,6 +32,8 @@ english_to_pirate_prompt = """
 
                             The next English phrase is the one you need to translate:\n
                             """
+
+
 def get_translation(text, is_pirate_speak):    
     if(is_pirate_speak):
         completion = client.chat.completions.create(

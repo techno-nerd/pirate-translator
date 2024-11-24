@@ -1,7 +1,7 @@
 import streamlit as st
 import utils
 
-st.header("Pirate_Speak Translator")
+st.set_page_config(page_title="Pirate-Speak Translator", page_icon=":pirate_flag:")
 st.title("Pirate-Speak Translator")
 
 col1, col2 = st.columns(2)
