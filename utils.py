@@ -4,7 +4,7 @@ import streamlit as st
 import os
 
 
-MODEL_NAME = "llama-3.1-70b-versatile"
+MODEL_NAME = "llama3-8b-8192"
 
 try:
     load_dotenv()
